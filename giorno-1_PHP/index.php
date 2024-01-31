@@ -20,13 +20,13 @@
         <?php
 
         $squadre = [
-            "Juventus vs Milan" => [
-                "Juventus" => ["Mario", "Giovanni", "Francesco", "Andrea"],
+            "Inter vs Milan" => [
+                "Inter" => ["Mario", "Giovanni", "Francesco", "Andrea"],
                 "Milan" => ["Pippo", "Pluto", "Paperino", "Topolino"],
             ],
             "Napoli vs Roma " => [
                 "Napoli" => ["Shrek", "Fiona", "Ciuchino", "Gatto"],
-                "Roma" => ["Mario", "Luigi", "Toad", "Silvia Galassia"]
+                "Roma" => ["Mario", "Luigi", "Toad", "Peach"]
             ]
 
         ];
