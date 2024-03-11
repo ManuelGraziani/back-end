@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/lista-attività', function () {
+Route::get('attivita/lista-attivita', function () {
 
     $post1 = new stdClass();
 
@@ -27,18 +27,18 @@ Route::get('/lista-attività', function () {
     return view('elenco' , ['posts' => $posts]);
 });
 
-Route::get('/visualizza-attività', function () {
+Route::get('attivita/visualizza-attivita', function () {
     return view('visualizza');
 });
 
-Route::get('/creazione-attività', function () {
+Route::get('attivita/creazione-attivita', function () {
     return view('creazione');
 });
 
-Route::get('/modifica-attività', function () {
+Route::get('attivita/modifica-attivita', function () {
     return view('modifica');
 });
 
-Route::get('/elimina-attività', function () {
+Route::get('attivita/elimina-attivita', function () {
     return view('elimina');
 });
